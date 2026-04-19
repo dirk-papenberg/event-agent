@@ -1,0 +1,12 @@
+use_default_settings: true
+server:
+  secret_key: "065eab3174f8d1891a0937582d09c6c2f430d76afe099694d79b528c4a3d94f7"
+  limiter: false
+  image_proxy: false
+  public_instance: false
+search:
+  formats:
+    - html
+    - json
+  safe_search: 0
+  default_lang: "de"
