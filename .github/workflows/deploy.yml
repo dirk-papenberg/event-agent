@@ -8,9 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on:
-      - self-hosted
-      - local
+    runs-on: self-hosted
 
     steps:
       - name: Check out repository
