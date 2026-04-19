@@ -28,7 +28,7 @@ jobs:
         run: docker network create --driver bridge recipes-network || true
 
       - name: Deploy container
-        run: docker compose up --build -d
+        run: docker-compose up --build -d
 
       - name: Cleanup env file
         if: always()
